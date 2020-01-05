@@ -1,0 +1,12 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: itcast-eureka # \u5C06\u6765\u4F5C\u4E3A\u5FAE\u670D\u52A1\u540D\u79F0\u6CE8\u5165\u5230eureka\u5BB9\u5668
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  server:
+    eviction-interval-timer-in-ms: 5000 # \u5254\u9664\u65E0\u6548\u8FDE\u63A5\u7684\u95F4\u9694\u65F6\u95F4
+    enable-self-preservation: false # \u5173\u95ED\u81EA\u6211\u4FDD\u62A4\u72B6\u6001
