@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///mybatis
+    username: root
+    password: rose
+  application:
+    name: service-provider
+
+mybatis:
+  type-aliases-package: com.videostudy.springboot_2_user.pojo
+
+
